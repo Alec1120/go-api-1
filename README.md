@@ -14,7 +14,7 @@ A simple Todo REST API built with Go and Gin, storing tasks in memory and design
 ---
 
 ## 📁 项目结构 | Project Structure
-
+```
 go-api/ 
 ├── build
 │ └── build.sh 
@@ -26,7 +26,7 @@ go-api/
 ├── run.sh
 ├── curls_cmd # test cases
 └── README.md
-
+```
 ### 🐳 构建镜像 | Build Docker Image
 
 ```bash
