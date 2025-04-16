@@ -1,4 +1,11 @@
 package main
+// Go program to create a simple REST API for managing a list of todos using Gin framework
+// and a mutex for thread safety.
+// The API supports CRUD operations: Create, Read, Update, and Delete.
+// The todos are stored in memory in a slice and protected by a mutex to ensure thread safety.
+// The API is designed to be simple and easy to understand, making it suitable for beginners
+// who are learning Go and web development.
+// The code is organized into a main package and a handlers package, where the handlers package
 
 import (
 	"github.com/gin-gonic/gin"
